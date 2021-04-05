@@ -39,7 +39,7 @@ window.addEventListener('DOMContentLoaded', function() {
       }
 
       // If we've matched all the cards, display a message.
-      if (matchedCards.length > cards.length) {
+      if (matchedCards.length >= cards.length) { //matched cards should equal length of all cards
         alert('You matched all the cards, nice job!');
       }
     });
